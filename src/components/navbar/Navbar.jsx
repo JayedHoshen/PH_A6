@@ -92,9 +92,9 @@ const Navbar = () => {
             </div>
           </div>
           <span className="font-semibold text-base cursor-pointer ">Login</span>
-          <a className="btn text-white font-semibold rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] ">
+          <button className="btn text-white font-semibold rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-linear-to-l">
             Get Started
-          </a>
+          </button>
         </div>
       </div>
     </div>
