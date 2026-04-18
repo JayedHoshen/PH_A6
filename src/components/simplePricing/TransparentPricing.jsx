@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
 
-const GetStarted = () => {
+const TransparentPricing = () => {
   return (
     <div className="container mx-auto">
       <div className="space-y-4 mb-10 text-center">
@@ -132,4 +132,4 @@ const GetStarted = () => {
   );
 };
 
-export default GetStarted;
+export default TransparentPricing;

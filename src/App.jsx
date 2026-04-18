@@ -6,6 +6,7 @@ import Ready from "./components/readyTransform/Ready";
 import GetStarted from "./components/starter/GetStarted";
 import TransparentPricing from "./components/simplePricing/TransparentPricing";
 import Stats from "./components/stats/Stats";
+import PremiumPricing from "./components/premiumPricing/PremiumPricing";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
 
         <section className="mt-8 bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
           <Stats></Stats>
+        </section>
+
+        <section className="py-12 md:py-30 bg-white">
+          <PremiumPricing></PremiumPricing>
         </section>
 
         <section className="py-12 md:py-30 bg-[#F9FAFC]">
