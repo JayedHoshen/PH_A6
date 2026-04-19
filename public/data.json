@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Basic resume building package for beginners.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "Basic customization", "Export to PDF"],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools for creating professional resumes.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF & DOCX"],
+    "icon": "Award"
+  },
+  {
+    "id": 3,
+    "name": "Career Growth Plan",
+    "description": "Monthly subscription for career development tools.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume updates",
+      "Cover letter generator",
+      "Job tracking dashboard"
+    ],
+    "icon": "TrendingUp"
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Job Toolkit",
+    "description": "Complete toolkit for job seekers and professionals.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited templates",
+      "AI resume suggestions",
+      "Interview preparation guide"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "description": "Boost your LinkedIn profile visibility.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Profile review",
+      "Keyword optimization",
+      "Headline generator"
+    ],
+    "icon": "Linkedin"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Pack",
+    "description": "Tools designed for freelancers and remote workers.",
+    "price": 15.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Portfolio templates",
+      "Client proposal generator",
+      "Invoice templates"
+    ],
+    "icon": "Laptop"
+  },
+  {
+    "id": 7,
+    "name": "Interview Mastery",
+    "description": "Prepare and ace your job interviews.",
+    "price": 11.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Common interview questions",
+      "Mock interview tips",
+      "Answer frameworks"
+    ],
+    "icon": "Mic"
+  },
+  {
+    "id": 8,
+    "name": "All-in-One Career Suite",
+    "description": "Full access to all career tools and updates.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All features unlocked",
+      "Priority support",
+      "Regular updates"
+    ],
+    "icon": "Layers"
+  }
+]

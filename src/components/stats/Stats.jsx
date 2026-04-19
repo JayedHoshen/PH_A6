@@ -5,15 +5,15 @@ const Stats = () => {
     <div className="py-15 container mx-auto flex gap-8 flex-col lg:flex-row justify-around items-center">
       <div className="space-y-2">
         <h3 className="font-extrabold text-6xl text-white">50K+</h3>
-        <p className="font-medium text-2xl text-white/60">Active Users</p>
+        <p className="font-medium text-2xl text-white/80">Active Users</p>
       </div>
       <div className="space-y-2">
         <h3 className="font-extrabold text-6xl text-white">200+</h3>
-        <p className="font-medium text-2xl text-white/60">Premium Tools</p>
+        <p className="font-medium text-2xl text-white/80">Premium Tools</p>
       </div>
       <div className="space-y-2">
         <h3 className="font-extrabold text-6xl text-white">4.9</h3>
-        <p className="font-medium text-2xl text-white/60">Rating</p>
+        <p className="font-medium text-2xl text-white/80">Rating</p>
       </div>
     </div>
   );
