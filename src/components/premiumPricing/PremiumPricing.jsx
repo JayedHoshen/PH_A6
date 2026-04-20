@@ -2,10 +2,15 @@ import React, { use, useState } from "react";
 import Products from "./Products";
 import Cart from "./Cart";
 
-const PremiumPricing = ({ productPromise }) => {
+const PremiumPricing = ({
+  productPromise,
+  selectedProduct,
+  setSelectedProduct,
+}) => {
+  const [productStatus, setProductStatus] = useState("product");
+
   const productData = use(productPromise);
 
-  const [productStatus, setProductStatus] = useState("product");
   return (
     <div className="container mx-auto">
       <div className="text-center mb-10 flex flex-col justify-center items-center gap-4">
@@ -27,14 +32,21 @@ const PremiumPricing = ({ productPromise }) => {
             onClick={() => setProductStatus("cart")}
             className={`btn btn-ghost text-base rounded-full ${productStatus === "cart" ? "bg-linear-to-r text-white" : ""} from-[#4F39F6] to-[#9514FA] hover:bg-linear-to-l`}
           >
-            Cart (2)
+            Cart ({selectedProduct.length})
           </button>
         </div>
       </div>
       {productStatus === "product" ? (
-        <Products productData={productData}></Products>
+        <Products
+          productData={productData}
+          selectedProduct={selectedProduct}
+          setSelectedProduct={setSelectedProduct}
+        ></Products>
       ) : (
-        <Cart></Cart>
+        <Cart
+          selectedProduct={selectedProduct}
+          setSelectedProduct={setSelectedProduct}
+        ></Cart>
       )}
     </div>
   );

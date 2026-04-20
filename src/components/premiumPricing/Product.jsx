@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaCheck } from "react-icons/fa";
+import { toast } from "react-toastify";
 
-const Product = ({ product }) => {
+const Product = ({ product, selectedProduct, setSelectedProduct }) => {
   const { name, description, price, period, tagType, features, icon } = product;
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelectedProduct = () => {
+    setIsSelected(true);
+
+    if (selectedProduct.find((p) => p.id === product.id)) {
+      toast.warn(`${name} is already added`);
+      return;
+    } else {
+      setSelectedProduct([...selectedProduct, product]);
+      toast.success(`${name} is added`);
+    }
+  };
+
   return (
     <div className="flex flex-col p-7 space-y-4 bg-gray-100 hover:bg-gray-50 rounded-2xl shadow relative">
       <p
@@ -31,8 +46,18 @@ const Product = ({ product }) => {
           ))}
         </ul>
       </div>
-      <button className="btn text-white w-full rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-linear-to-l text-base">
-        Buy Now
+      <button
+        onClick={handleSelectedProduct}
+        className={`btn text-white w-full rounded-full text-base bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-linear-to-l`}
+      >
+        {isSelected ? (
+          <div className="flex gap-2 items-center">
+            <FaCheck></FaCheck>
+            <span>Added to cart</span>
+          </div>
+        ) : (
+          "Buy Now"
+        )}
       </button>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
   return (
     <div className="bg-base-100 shadow-sm">
       <div className="navbar container mx-auto">
@@ -87,7 +87,7 @@ const Navbar = () => {
                 />{" "}
               </svg>
               <span className="text-[#f08b06] text-lg font-extrabold badge bg-transparent badge-sm indicator-item outline-0 border-0">
-                9
+                {cartCount}
               </span>
             </div>
           </div>
