@@ -16,7 +16,7 @@ const PremiumPricing = ({ productPromise }) => {
           Choose from our curated collection of premium digital products
           designed to boost your productivity and creativity.
         </p>
-        <div className="flex gap-4 items-center bg-gray-100 rounded-full p-1">
+        <div className="flex gap-2 items-center bg-gray-100 rounded-full p-1">
           <button
             onClick={() => setProductStatus("product")}
             className={`btn btn-ghost text-base rounded-full ${productStatus === "product" ? "bg-linear-to-r text-white" : ""} from-[#4F39F6] to-[#9514FA] hover:bg-linear-to-l`}

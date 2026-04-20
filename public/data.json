@@ -8,7 +8,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["20+ templates", "Basic customization", "Export to PDF"],
-    "icon": "FileText"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/file-text.svg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF & DOCX"],
-    "icon": "Award"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/award.svg"
   },
   {
     "id": 3,
@@ -34,7 +34,7 @@
       "Cover letter generator",
       "Job tracking dashboard"
     ],
-    "icon": "TrendingUp"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/trending-up.svg"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "AI resume suggestions",
       "Interview preparation guide"
     ],
-    "icon": "Briefcase"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/briefcase.svg"
   },
   {
     "id": 5,
@@ -64,7 +64,7 @@
       "Keyword optimization",
       "Headline generator"
     ],
-    "icon": "Linkedin"
+    "icon": "https://cdn.jsdelivr.net/npm/lucide-static/icons/linkedin.svg"
   },
   {
     "id": 6,
@@ -79,7 +79,7 @@
       "Client proposal generator",
       "Invoice templates"
     ],
-    "icon": "Laptop"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/laptop.svg"
   },
   {
     "id": 7,
@@ -94,7 +94,7 @@
       "Mock interview tips",
       "Answer frameworks"
     ],
-    "icon": "Mic"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/mic.svg"
   },
   {
     "id": 8,
@@ -109,6 +109,6 @@
       "Priority support",
       "Regular updates"
     ],
-    "icon": "Layers"
+    "icon": "https://unpkg.com/lucide-static@latest/icons/layers.svg"
   }
 ]
