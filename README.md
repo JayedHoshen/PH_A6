@@ -1,16 +1,102 @@
-# React + Vite
+# 🚀 DigiTools – Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive digital tools marketplace where users can explore, add to cart, and manage purchases seamlessly.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** https://digitaltoolsph6.netlify.app/
+🔗 **Repository:** https://github.com/JayedHoshen/PH_A6
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+DigiTools is a fully responsive React-based web application that simulates a digital product purchasing platform. Users can browse tools, add them to cart, view total cost, and manage items dynamically with a smooth and interactive user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Application Preview
+
+<div align="center">
+
+### 🛍️ Products View & 🛒 Cart View
+
+<img src="https://raw.githubusercontent.com/JayedHoshen/PH_A6/main/src/assets/premium.png" width="45%" alt="Products Section" />
+<img src="https://raw.githubusercontent.com/JayedHoshen/PH_A6/main/src/assets/cart.png" width="45%" alt="Cart Section" />
+
+</div>
+
+<p align="center">
+  <i>Browse products and manage your cart seamlessly</i>
+</p>
+
+---
+
+## ✨ Features
+
+### 🛒 Smart Cart System
+
+- Add products to cart
+- Remove individual items
+- Dynamic cart count in navbar
+- Real-time total price calculation
+- "Proceed to Checkout" clears all cart items
+
+---
+
+### 🔄 Product & Cart Toggle
+
+- Toggle between **Products** and **Cart** view
+- Default view shows products
+- Cart shows empty state initially
+
+---
+
+### 🔔 Toast Notifications
+
+- Alerts using **React-Toastify**
+- Feedback for add to cart, remove item, and checkout
+
+---
+
+### 📱 Fully Responsive UI
+
+- Mobile, Tablet, Desktop optimized
+- Clean and modern UI based on Figma
+
+---
+
+### 📦 Dynamic Product Data
+
+- Products loaded from JSON
+- Includes:
+  - Name, Description
+  - Price & Subscription Type
+  - Features list
+  - Tags (Popular, New, Best Seller)
+
+---
+
+## 🧠 Key Functionalities
+
+- 🔁 Global cart state management
+- 🧮 Automatic total calculation
+- ⚡ Fast UI updates using React hooks
+- 🔄 Reusable and scalable component structure
+
+---
+
+## 🛠️ Technologies Used
+
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🌼 DaisyUI
+- 📦 React-Toastify
+- 🧠 JavaScript (ES6+)
+- 📄 JSON
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---

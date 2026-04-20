@@ -17,7 +17,7 @@ const Cart = ({ selectedProduct, setSelectedProduct }) => {
 
   const handleDeleteAllProducts = () => {
     if (selectedProduct.length > 0) {
-      toast.info("Yor purchase is successful");
+      toast.info("Your purchase is successful");
       setSelectedProduct([]);
     }
   };
